@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>给你的情书</title>
+    <style>
+        body {
+            background-color: #fde8e9;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .heart {
+            color: #ff6b6b;
+            animation: heartbeat 1.5s ease-in-out infinite both;
+        }
+
+        @keyframes heartbeat {
+            from {
+                transform: scale(1);
+                transform-origin: center center;
+                animation-timing-function: ease-out;
+            }
+
+            10% {
+                transform: scale(0.91);
+                animation-timing-function: ease-in;
+            }
+
+            17% {
+                transform: scale(0.98);
+                animation-timing-function: ease-out;
+            }
+
+            33% {
+                transform: scale(0.87);
+                animation-timing-function: ease-in;
+            }
+
+            45% {
+                transform: scale(1);
+                animation-timing-function: ease-out;
+            }
+        }
+    </style>
+</head>
+
+<body class="flex flex-col items-center justify-center min-h-screen p-4">
+    <div class="bg-white p-8 rounded-lg shadow-md max-w-3xl w-full">
+        <h1 class="text-4xl font-bold text-center text-pink-600 mb-4">给你的情书</h1>
+        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+            亲爱的，冬沙
+            <br><br>
+            本来是想要给你送出一份纸质情书的，我想了一下还是送你一份电子情书吧，当我第一次见到你的时候，其实是并没有喜欢感觉的哈哈哈哈，像我这种相亲见得多的人来说，早已分不清什么是喜欢了，但在你身上我看到了我曾经的青春感，青涩感，让我很向往这是我这么多年已经丢失的东西，随着时间的推移我渐渐的喜欢上了你，我会情不自禁的靠近你，只要你出现在我视野里，我就会被你吸引满眼皆是你。你是一个阳光乐观的人，你的笑容如春日里的阳光，温暖而明亮，你就是我的小太阳。
+            <br><br>
+            与你相处的每一刻，都是我生命中最珍贵的回忆。我们一起在公园散步，感受着微风的轻抚，分享着过往生活中的喜怒哀乐；一起跟夕阳赛跑谁先到家。未来我还想跟你一起拥有更多美好的回忆，一起去美好的城市、美好的地方，只要你在我身边，我便无所畏惧。
+            <br><br>
+            你是我见过最善良、最温柔的人。你的善良如同清澈的湖水，纯净而深沉；你的温柔如同细腻的春雨，滋润着我的心田。在你身边，我感受到了前所未有的安心和幸福。我愿意用我的一生去守护这份温暖，陪伴在你身旁，为你遮风挡雨，与你共度一生。
+            <br><br>
+            我知道，爱情不仅仅是浪漫的誓言，更是相互的理解、支持和包容。在未来的日子里，无论遇到什么困难和挑战，我都愿意与你携手共进，不离不弃。我会用我的行动来证明我对你的爱，让你成为世界上最幸福的人。
+            <br><br>
+            亲爱的，我爱你，这份爱如同滔滔江水，连绵不绝；如同巍峨高山，坚定不移。我希望我们能一起走过人生的每一个阶段，创造更多美好的回忆。
+            <br><br>
+            永远爱你的家豪
+        </p>
+        <p class="text-center text-3xl">
+            <i class="fa-solid fa-heart heart"></i>
+        </p>
+    </div>
+</body>
+
+</html>
